@@ -1,0 +1,28 @@
+{
+  "name": "tech_talk_django_pg_triggers",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopCompose",
+  "dockerComposeFile": "../docker-compose.yml",
+  "containerEnv": {
+    "DOCKER_BUILDKIT": "1",
+    "COMPOSE_DOCKER_CLI_BUILD": "1"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.pythonPath": "/opt/.venv/bin/python"
+      },
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "formulahendry.docker-extension-pack",
+        "ms-python.python",
+        "charliermarsh.ruff",
+        "tamasfe.even-better-toml",
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.makefile-tools",
+        "eamodio.gitlens"
+      ]
+    }
+  }
+}

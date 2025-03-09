@@ -1,0 +1,20 @@
+[project]
+name = "tech_talk_django_pg_triggers"
+version = "0.1.0"
+description = "Tech Talk Django PG Triggers"
+readme = "README.md"
+requires-python = ">=3.12.1"
+dependencies = [
+    "django>=5.1.7",
+    "django-configurations>=2.5.1",
+    "django-pgtrigger>=4.13.3",
+    "django-redis>=5.4.0",
+    "hiredis>=3.1.0",
+    "psycopg2>=2.9.10",
+    "redis>=5.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.10",
+]

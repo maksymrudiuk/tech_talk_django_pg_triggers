@@ -1,0 +1,36 @@
+{
+  // Editor
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "files.associations": {
+    ".env.*": "properties",
+  }
+  // Python (Ruff)
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+  // Eslint
+  "eslint.useFlatConfig": true,
+  "eslint.format.enable": true,
+  "eslint.workingDirectories": [
+    {
+      "directory": "../src/private",
+      "changeProcessCWD": true,
+    }
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+  ],
+  // Typescript
+  "typescript.validate.enable": false,
+  // Indent Rainbow
+  // https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
+  "indentRainbow.indicatorStyle": "light"
+}
